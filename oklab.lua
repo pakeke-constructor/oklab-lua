@@ -1,6 +1,15 @@
+-- MIT LICENSE (oliver garrett 2024)
 
 local oklab = {}
 
+--[[
+
+algorithm taken from
+https://bottosson.github.io/posts/oklab/
+
+
+
+]]
 
 local function cubeRoot(x)
     return x ^ (1/3)
